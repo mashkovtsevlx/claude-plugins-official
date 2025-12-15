@@ -194,8 +194,8 @@
       "description": "Figma design platform integration. Access design files, extract component information, read design tokens, and translate designs into code. Bridge the gap between design and development workflows.",
       "category": "design",
       "source": {
-        "source": "github",
-        "repo": "https://github.com/figma/mcp-server-guide.git"
+        "source": "url",
+        "url": "https://github.com/figma/mcp-server-guide.git"
       },
       "homepage": "https://github.com/figma/mcp-server-guide"
     },
