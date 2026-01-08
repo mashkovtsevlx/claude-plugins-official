@@ -535,6 +535,16 @@
         "url": "https://github.com/pinecone-io/pinecone-claude-code-plugin.git"
       },
       "homepage": "https://github.com/pinecone-io/pinecone-claude-code-plugin"
+    },
+    {
+      "name": "huggingface-skills",
+      "description": "Build, train, evaluate, and use open source AI models, datasets, and spaces.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/huggingface/skills.git"
+      },
+      "homepage": "https://github.com/huggingface/skills.git"
     }
   ]
 }
