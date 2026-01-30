@@ -1,0 +1,23 @@
+name: Validate Marketplace JSON
+
+on:
+  pull_request:
+    paths:
+      - '.claude-plugin/marketplace.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate marketplace.json
+        run: |
+          echo "Validating .claude-plugin/marketplace.json..."
+          if jq empty .claude-plugin/marketplace.json 2>&1; then
+            echo "Valid JSON"
+          else
+            echo "Invalid JSON in .claude-plugin/marketplace.json"
+            exit 1
+          fi
