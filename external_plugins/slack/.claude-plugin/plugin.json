@@ -1,7 +1,8 @@
 {
   "name": "slack",
-  "description": "Slack workspace integration. Search messages, access channels, read threads, and stay connected with your team's communications while coding. Find relevant discussions and context quickly.",
+  "description": "Slack workspace integration. Post messages, reply to threads, list channels, read history, and manage reactions. Requires a Slack Bot Token - you'll be guided through setup on first use. Credentials are stored securely in your shell profile as environment variables (SLACK_BOT_TOKEN, SLACK_TEAM_ID).",
   "author": {
-    "name": "Slack"
-  }
+    "name": "Model Context Protocol"
+  },
+  "homepage": "https://github.com/modelcontextprotocol/servers/tree/main/src/slack"
 }

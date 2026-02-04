@@ -1,6 +1,10 @@
 {
   "slack": {
-    "type": "sse",
-    "url": "https://mcp.slack.com/sse"
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-slack"],
+    "env": {
+      "SLACK_BOT_TOKEN": "${SLACK_BOT_TOKEN}",
+      "SLACK_TEAM_ID": "${SLACK_TEAM_ID}"
+    }
   }
 }
